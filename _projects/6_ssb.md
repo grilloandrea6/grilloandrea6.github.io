@@ -42,7 +42,7 @@ The REF is the new Swiss Solar Boat prototype, a hydrogen-powered vessel targeti
 
 <div class="row">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ssb/DahuFoil.jpg" title="The Dahu, Swiss Solar Boat's current test platform" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ssb/DahuFoil-1400.webp" title="The Dahu, Swiss Solar Boat's current test platform" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/ssb/REF.webp" title="The REF, the future prototype" class="img-fluid rounded z-depth-1" %}
