@@ -2,31 +2,46 @@
 layout: page
 title: Onboard Computer Programming for Swiss Solar Boat
 description: Developing a flexible, modular framework for onboard electronics and software in a sustainable hydrogen-powered boat.
-img: assets/img/ssb.png
+img: assets/img/ssb/ssb.png
 importance: 1
 category: university-and-research
 related_publications: false
 ---
 
-This project focuses on designing a robust and future-proof framework for the onboard computer of the Swiss Solar Boat. Conducted during a semester project at EPFL, the work forms a crucial part of the team's effort to develop a hydrogen-powered boat by 2026. The framework integrates control systems, safety mechanisms, and data logging while ensuring modularity and scalability.
+This project focuses on designing a robust and future-proof framework for the onboard computer of the future boat prototype developed by the Swiss Solar Boat EPFL association. Conducted during a semester project at EPFL, the work forms a crucial part of the team's effort to develop a hydrogen-powered boat by 2026. The framework integrates control systems, safety mechanisms, and data logging while ensuring modularity and scalability.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ssb/ssb.jpg" title="SSB logo" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Swiss Solar Boat logo.
+</div>
+
 
 You can find the pdf version of the report for this project [here](/assets/pdf/2023_Fall_Grillo_Andrea_Onboard_Computer_Programming.pdf).
+
 ## Objectives
 
 - **Framework Development**: Create a software and electronics architecture to integrate control systems like FCU, ECU, and SCU with a Ground Station.
 - **Modularity**: Design a flexible system adaptable to evolving requirements.
 - **Real-Time Communication**: Enable reliable communication between subsystems using CAN and ROS2 technologies.
 - **Testing Infrastructure**: Develop Docker-based environments for efficient testing and deployment.
+- **Communication with ground station**: Implement a secure communication channel for telemetry and remote control.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/dahu_boat.jpg" title="The Dahu, Swiss Solar Boat's current test platform" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/DahuFoil.png" title="The Dahu, Swiss Solar Boat's current test platform" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    The Dahu, Swiss Solar Boat's current test platform.
 </div>
 
 ## System Overview
 
-The Swiss Solar Boat is a hydrogen-powered vessel targeting the following specifications:
+The REF is the new Swiss Solar Boat prototype, a hydrogen-powered vessel targeting the following specifications:
 - 3 passengers.
 - 150 km range.
 - 30 knots top speed.
