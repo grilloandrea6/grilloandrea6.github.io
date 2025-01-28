@@ -9,19 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-cv",
+          title: "cv",
+          description: "You can download the PDF version of my CV by clicking on the button on the right.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Here you will find the collection of my projects. ⚠️ This section is still under construction!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Here you will find the collection of my projects",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -29,13 +36,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "You can download the PDF version of my CV by clicking on the button on the right.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "projects-mpc-controller-for-a-rocket-prototype",
           title: 'MPC Controller for a Rocket Prototype',
@@ -80,6 +80,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/grilloandrea6", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/grilloandrea6", "_blank");
         },
       },{
       id: 'light-theme',
