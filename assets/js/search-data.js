@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-contacts",
+          title: "contacts",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contacts/";
+          },
         },{id: "projects-mpc-controller-for-a-rocket-prototype",
           title: 'MPC Controller for a Rocket Prototype',
           description: "Advanced control systems for a rocket prototype using Model Predictive Control.",
