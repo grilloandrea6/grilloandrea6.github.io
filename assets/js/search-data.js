@@ -67,6 +67,11 @@ ninja.data = [{
           description: "Developing a flexible, modular framework for onboard electronics and software in a sustainable hydrogen-powered boat.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_ssb/";
+            },},{id: "projects-stallaini-energy-and-automation-system",
+          title: 'Stallaini Energy and Automation system',
+          description: "Developing a sustainable off-grid energy system, including photovoltaic and water management, remote control and automation features.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_stallaini/";
             },},{
         id: 'social-email',
         title: 'email',
