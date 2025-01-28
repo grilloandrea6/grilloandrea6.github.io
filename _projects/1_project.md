@@ -1,81 +1,96 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: MPC Controller for a Rocket Prototype
+description: Advanced control systems for a rocket prototype using Model Predictive Control.
+img: assets/img/rocket_intro.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project explores the development and application of various Model Predictive Control (MPC) strategies for a rocket prototype. The project was undertaken as part of the ME-425 course on Model Predictive Control at EPFL.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The study involved detailed system analysis, linearization, subsystem decomposition, and the design of controllers tailored to manage complex dynamic behaviors effectively.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rocket_dynamics.jpg" title="Rocket Dynamics" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/linearization.jpg" title="Linearization Process" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/subsystem_separation.jpg" title="Subsystem Separation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: Visualization of rocket dynamics. Middle: Linearization process. Right: Subsystem decomposition.
 </div>
+
+## Key Contributions
+
+### Linearization and Subsystem Separation
+The rocket’s nonlinear dynamics, comprising 12 states and 4 inputs, were linearized around a steady-state trim point. Subsystems were separated into four decoupled controllers:
+
+- **Subsystem X**: Controlling the x-axis movement.
+- **Subsystem Y**: Controlling the y-axis movement.
+- **Subsystem Z**: Managing vertical motion.
+- **Subsystem Roll**: Regulating roll dynamics.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/linear_mpc.jpg" title="Linear MPC" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Linear MPC applied to the subsystems, ensuring feasibility and constraint satisfaction.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### MPC Controllers
+Four independent MPC regulators were designed for each subsystem to stabilize the system and track reference trajectories. Techniques included:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+- Recursive feasibility through invariant sets.
+- Constraint softening to handle mismatches.
+
+Simulations demonstrated the controllers’ success in tracking reference points and maintaining stability.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/offset_tracking.jpg" title="Offset-Free Tracking" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Offset-free tracking performance under varying mass conditions.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Nonlinear MPC
+To manage the rocket’s full nonlinear dynamics, a Nonlinear Model Predictive Controller (NMPC) was implemented using the CASADI framework. Key features:
 
-{% raw %}
+- Full state-space control without subsystem decomposition.
+- Mitigation of Euler angle singularities.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+Comparative analyses revealed the NMPC’s superior handling of nonlinear dynamics, particularly under high roll angle constraints.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nmpc_performance.jpg" title="NMPC Performance" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Performance comparison: Linear MPC vs. Nonlinear MPC at high roll angles.
+</div>
 
-{% endraw %}
+### Delay Compensation
+The NMPC controller’s performance was evaluated under time delays, with compensation strategies effectively mitigating instability for delays of up to 0.2 seconds.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/delay_compensation.jpg" title="Delay Compensation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Results of delay compensation in the NMPC framework.
+</div>
+
+## Conclusion
+This project highlights the power and versatility of MPC strategies in managing complex, nonlinear dynamic systems. The insights gained from this study can inform the design of advanced control systems for aerospace applications and beyond.
