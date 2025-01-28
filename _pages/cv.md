@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: CV-Andrea-Grillo.pdf # you can also use external links here
-description: Here you can download my CV by clicking on the button on the right.
+description: You can download the PDF version of my CV by clicking on the button on the right.
 toc:
   sidebar: left
 ---
