@@ -44,36 +44,36 @@
       year: Feb. 2024 - present
       description:
         - Developed software framework for Distributed MPC on hovercrafts for multi-robot formation control. Submitted to ICRA 2025.
-        - Skills: ROS2, Optimization, C++, MPC
+        - "Skills: ROS2, Optimization, C++, MPC"
     - title: EPFL Semester Project
       institution: Swiss Solar Boat, EPFL, Switzerland
       year: Sept. 2023 - Feb. 2024
       description:
         - Designed software architecture framework for a prototype boat.
-        - Skills: ROS2, CANBUS communication, Python/C++, Docker
+        - "Skills: ROS2, CANBUS communication, Python/C++, Docker"
     - title: Student Internship
       institution: Pic4Ser - Politecnico di Torino, Italy
       year: Feb. 2023 - Jul. 2023
       description:
         - Designed an obstacle-avoidance sensor system for a robotic platform.
-        - Skills: STM32 microcontroller programming, CANBUS communication
+        - "Skills: STM32 microcontroller programming, CANBUS communication"
     - title: Team Leader
       institution: Team ISAAC - Politecnico di Torino, Italy
       year: Nov. 2020 - Jul. 2023
       description:
         - Managed a team designing a biomimetic modular snake-like robot.
-        - Skills: Microcontroller programming, control systems, software development management
+        - "Skills: Microcontroller programming, control systems, software development management"
     - title: Specialized Technician - Student Internship
       institution: Openscuola Project - Politecnico di Torino, Italy
       year: Oct. 2021 - Jul. 2023
       description:
         - Maintained IT infrastructure in schools using recycled hardware and open-source software.
-        - Project link: [Openscuola](https://linux.studenti.polito.it)
+        - Project link - [Openscuola](https://linux.studenti.polito.it)
 
 - title: Publications
   type: time_table
   contents:
-    - title: Cooperative Distributed Model Predictive Control for Embedded Systems: Experiments with Hovercraft Formations
+    - title: "Cooperative Distributed Model Predictive Control for Embedded Systems: Experiments with Hovercraft Formations"
       year: 2024
       description: Co-authored with G. Stomberg, R. Schwan, C.N. Jones, and T. Faulwasser. Submitted to ICRA 2025. Available [here](https://arxiv.org/abs/2409.13334v1).
 
@@ -82,7 +82,7 @@
   contents:
     - year: 2023
       items:
-        - Final grade: 110/110 cum laude (Bachelor’s)
+        - Final grade - 110/110 cum laude (Bachelor’s)
     - year: 2020
       items:
         - Intraprendenti Excellence Program
@@ -99,17 +99,17 @@
     - title: Robotics and Control Systems
       items:
         - ROS/ROS2 for embedded systems
-        - Control systems: PID, cascaded control, MPC
-        - Robotics hardware: microcontrollers, sensors
+        - Control systems - PID, cascaded control, MPC
+        - Robotics hardware - microcontrollers, sensors
     - title: IT and Networking
       items:
         - GNU/Linux expertise (Debian, Ubuntu)
         - Docker for virtualization
-        - Networking: VPNs, routing, firewall management
+        - Networking - VPNs, routing, firewall management
     - title: Electronics and Embedded Systems
       items:
         - Circuit design (analog/digital), PCB design
-        - Communication protocols: I2C, SPI, CANBUS
+        - Communication protocols - I2C, SPI, CANBUS
         - STM32 microcontroller expertise
 
 - title: Other Interests
