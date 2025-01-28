@@ -10,6 +10,8 @@ related_publications: false
 
 This project focuses on the development of a robust sensor integration system for the robotic platform **Paquitop**, as part of a curricular internship at the Interdepartmental Centre for Service Robotics (PIC4SeR) of Politecnico di Torino. The main objectives were to enhance obstacle detection capabilities and improve the safety and adaptability of the platform.
 
+You can find the pdf version of the report for this project [here](/assets/pdf/Andrea_Grillo_Report_PIC4SeR_Paquitop.pdf).
+
 Key contributions include the design and implementation of a distributed data acquisition system, PCB design for sensor boards, and integration of real-time communication using CAN bus.
 
 ## Objectives

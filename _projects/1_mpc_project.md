@@ -8,7 +8,10 @@ category: course-projects
 related_publications: false
 ---
 
+
 This project explores the development and application of various Model Predictive Control (MPC) strategies for a rocket prototype. The project was undertaken as part of the ME-425 course on Model Predictive Control at EPFL.
+
+You can find the pdf version of the report for this project [here](/assets/pdf/mpc-project-report.pdf).
 
 The study involved detailed system analysis, linearization, subsystem decomposition, and the design of controllers tailored to manage complex dynamic behaviors effectively.
 

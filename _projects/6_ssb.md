@@ -10,6 +10,7 @@ related_publications: false
 
 This project focuses on designing a robust and future-proof framework for the onboard computer of the Swiss Solar Boat. Conducted during a semester project at EPFL, the work forms a crucial part of the team's effort to develop a hydrogen-powered boat by 2026. The framework integrates control systems, safety mechanisms, and data logging while ensuring modularity and scalability.
 
+You can find the pdf version of the report for this project [here](/assets/pdf/2023_Fall_Grillo_Andrea_Onboard_Computer_Programming.pdf).
 ## Objectives
 
 - **Framework Development**: Create a software and electronics architecture to integrate control systems like FCU, ECU, and SCU with a Ground Station.

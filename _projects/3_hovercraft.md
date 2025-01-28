@@ -10,6 +10,8 @@ related_publications: false
 
 This semester project explores Distributed Model Predictive Control (DMPC) for achieving formation control of miniature hovercraft. The work builds upon and enhances previous research by integrating advanced algorithms, improving system design, and enabling onboard computation.
 
+You can find the pdf version of the report for this project [here](/assets/pdf/Andrea Grillo - Distributed MPC for miniature hovercraft.pdf).
+
 ## Key Objectives
 
 1. **Adapting the Software Framework**: Extending a single-hovercraft control framework to support multiple agents.

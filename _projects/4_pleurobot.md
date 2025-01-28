@@ -10,6 +10,8 @@ related_publications: false
 
 This project focuses on developing firmware and communication systems for the sensorized **Pleurobot**, a bio-inspired robot mimicking the locomotion of the salamander _Pleurodeles waltl_. The project was conducted at **BIOROB - EPFL**, under the supervision of Prof. *Auke Jan Ijspeert* and Dr. *Qiyuan Fu*.
 
+You can find the pdf version of the report for this project [here](/assets/pdf/Andrea Grillo - Firmware development for a sensorized Pleurobot_reviewed.pdf).
+
 ## Objectives
 
 1. **Sensor Modules**: Optimize sampling speed, robustness and communication of sensor modules to the onboard computer.
