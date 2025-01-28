@@ -8,7 +8,7 @@ category: course-projects
 related_publications: false
 ---
 
-This project, undertaken during the 2023 fall semester at EPFL for the "Basics of Mobile Robotics" course, focuses on integrating vision, global and local navigation, and filtering techniques to autonomously maneuver a Thymio robot within a predefined environment.
+This project, undertaken during the 2023 fall semester at EPFL for the "Basics of Mobile Robotics" course, focuses on integrating vision, global and local navigation, and filtering techniques to autonomously maneuver a <a href="https://www.thymio.org">Thymio</a> robot within a predefined environment.
 
 ## Group Members
 
@@ -21,9 +21,21 @@ This project, undertaken during the 2023 fall semester at EPFL for the "Basics o
 
 A comprehensive demonstration showcasing all components of the project is available:
 
-![Project Demonstration](assets/img/thymio_demo.jpg)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mobile_project.gif" title="Project Demo" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Project Demo
+</div>
 
 Additional test videos can be found in the 'videos' directory of the project repository.
+
+
+## Project repository
+
+For a detailed walkthrough and access to the codebase, please visit the [project repository](https://github.com/grilloandrea6/mobile-robotics-project).
 
 ## Introduction
 
@@ -81,6 +93,3 @@ Testing scripts for individual subsystems are located in the 'test' directory. A
 ## Conclusion
 
 This project successfully demonstrates the integration of vision, navigation, and filtering techniques to achieve autonomous navigation of a Thymio robot in a controlled environment. The system exhibits robustness to dynamic obstacles, temporary sensor occlusions, and unexpected relocations, highlighting its potential for real-world applications.
-
-For a detailed walkthrough and access to the codebase, please visit the [project repository](https://github.com/grilloandrea6/mobile-robotics-project).
-
