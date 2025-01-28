@@ -10,11 +10,11 @@
     - name: Phone
       value: +41 78 266 42 46 | +39 392 339 2042
     - name: Email
-      value: andrea.grillo@epfl.ch
+      value: <a href="mailto:grilloandrea6@gmail.com">grilloandrea6@gmail.com</a> | <a href="andrea.grillo@epfl.ch">andrea.grillo@epfl.ch</a>
     - name: GitHub
-      value: grilloandrea6
+      value: <a href="https://github.com/grilloandrea6">grilloandrea6</a>
     - name: LinkedIn
-      value: grilloandrea6
+      value: <a href="https://www.linkedin.com/in/grilloandrea6">Andrea Grillo</a>
     - name: Languages
       value: English (C1), Italian (Mother Tongue), Spanish (C1), French (B2)
 
