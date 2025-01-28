@@ -23,59 +23,59 @@
   contents:
     - title: Master’s Degree in Robotics
       institution: EPFL - École Polytechnique Fédérale de Lausanne, Switzerland
-      year: Sept. 2023 - present
+      year: Sep 2023 - present
       description:
-        - Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Deep Learning for Autonomous Vehicles.
-        - Teaching assistant for courses: Basics of Mobile Robotics, Basics of Robotics for Manipulation.
-        - Grade average: 5.78/6
+        - "Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Deep Learning for Autonomous Vehicles."
+        - "Teaching assistant for courses: Basics of Mobile Robotics, Basics of Robotics for Manipulation."
+        - "Grade average: 5.78/6"
     - title: Bachelor’s Degree in Computer Engineering
       institution: Politecnico di Torino, Italy
-      year: Aug. 2020 - Jul. 2023
+      year: Aug 2020 - Jul 2023
       description:
-        - Intraprendenti Project: Excellence program for top-level students.
-        - Camplus Bernini: INPS fellowship for living in a College of Merit.
-        - Final grade: 110/110 cum laude
+        - "Intraprendenti Project: Excellence program for top-level students."
+        - "Camplus Bernini: INPS fellowship for living in a College of Merit."
+        - "Final grade: 110/110 cum laude"
 
 - title: Professional Experience
   type: time_table
   contents:
     - title: Research Assistant and Semester Project
       institution: Automatic Control Laboratory - Predict Lab, EPFL, Switzerland
-      year: Feb. 2024 - present
+      year: Feb 2024 - present
       description:
         - Developed software framework for Distributed MPC on hovercrafts for multi-robot formation control. Submitted to ICRA 2025.
         - "Skills: ROS2, Optimization, C++, MPC"
     - title: EPFL Semester Project
       institution: Swiss Solar Boat, EPFL, Switzerland
-      year: Sept. 2023 - Feb. 2024
+      year: Sep 2023 - Feb 2024
       description:
         - Designed software architecture framework for a prototype boat.
         - "Skills: ROS2, CANBUS communication, Python/C++, Docker"
     - title: Student Internship
       institution: Pic4Ser - Politecnico di Torino, Italy
-      year: Feb. 2023 - Jul. 2023
+      year: Feb 2023 - Jul 2023
       description:
         - Designed an obstacle-avoidance sensor system for a robotic platform.
         - "Skills: STM32 microcontroller programming, CANBUS communication"
     - title: Team Leader
       institution: Team ISAAC - Politecnico di Torino, Italy
-      year: Nov. 2020 - Jul. 2023
+      year: Nov 2020 - Jul 2023
       description:
         - Managed a team designing a biomimetic modular snake-like robot.
         - "Skills: Microcontroller programming, control systems, software development management"
     - title: Specialized Technician - Student Internship
       institution: Openscuola Project - Politecnico di Torino, Italy
-      year: Oct. 2021 - Jul. 2023
+      year: Oct 2021 - Jul 2023
       description:
         - Maintained IT infrastructure in schools using recycled hardware and open-source software.
-        - Project link - [Openscuola](https://linux.studenti.polito.it)
+        - Project link - <a href=http://linux.studenti.polito.it> Openscuola Project </a>
 
 - title: Publications
   type: time_table
   contents:
     - title: "Cooperative Distributed Model Predictive Control for Embedded Systems: Experiments with Hovercraft Formations"
       year: 2024
-      description: Co-authored with G. Stomberg, R. Schwan, C.N. Jones, and T. Faulwasser. Submitted to ICRA 2025. Available [here](https://arxiv.org/abs/2409.13334v1).
+      description: Co-authored with G. Stomberg, R. Schwan, C.N. Jones, and T. Faulwasser. Accepted to ICRA 2025. Available <a href=https://arxiv.org/abs/2409.13334v1>here</a>.
 
 - title: Honors and Awards
   type: time_table
