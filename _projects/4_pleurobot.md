@@ -2,7 +2,7 @@
 layout: page
 title: Firmware Development for a Sensorized Pleurobot
 description: Enhancing the Pleurobot's capabilities with real-time control, ROS2 integration, and advanced communication systems.
-img: assets/img/pleurobot_intro.jpg
+img: assets/img/pleurobot.png
 importance: 1
 category: university-and-research
 related_publications: true

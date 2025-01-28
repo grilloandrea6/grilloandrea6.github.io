@@ -2,7 +2,7 @@
 layout: page
 title: MPC Controller for a Rocket Prototype
 description: Advanced control systems for a rocket prototype using Model Predictive Control.
-img: assets/img/rocket_intro.jpg
+img: assets/img/mpc_project.png
 importance: 1
 category: course-projects
 related_publications: true

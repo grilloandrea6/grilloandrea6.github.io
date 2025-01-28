@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Distributed MPC for Miniature Hovercraft
-img: assets/img/hovercraft_demo.jpg
+img: assets/img/publication_preview/hovercraft.png
 description: A semester project on distributed formation control using Model Predictive Control (DMPC).
 importance: 1
 category: university-and-research

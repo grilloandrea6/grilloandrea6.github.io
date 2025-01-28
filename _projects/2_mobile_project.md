@@ -2,7 +2,7 @@
 layout: page
 title: Mobile Robotics Project
 description: Integration of vision, navigation, and filtering for autonomous Thymio robot navigation.
-img: assets/img/thymio_demo.jpg
+img: assets/img/mobile_project.gif
 importance: 1
 category: course-projects
 related_publications: true
