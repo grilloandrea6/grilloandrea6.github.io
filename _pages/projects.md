@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Here you will find the collection of my projects. <br>⚠️ This section is still under construction!
+description: Here you will find the collection of my projects.
 nav: true
 nav_order: 3
 display_categories: [university-and-research, course-projects, personal-projects]
