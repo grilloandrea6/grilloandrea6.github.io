@@ -57,6 +57,16 @@ ninja.data = [{
           description: "Enhancing the Pleurobot&#39;s capabilities with real-time control, ROS2 integration, and advanced communication systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_pleurobot/";
+            },},{id: "projects-sensor-integration-on-robotic-platform-paquitop",
+          title: 'Sensor Integration on Robotic Platform Paquitop',
+          description: "Designing and implementing a sensor integration system for enhanced obstacle detection on the Paquitop robotic platform.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_paquitop/";
+            },},{id: "projects-onboard-computer-programming-for-swiss-solar-boat",
+          title: 'Onboard Computer Programming for Swiss Solar Boat',
+          description: "Developing a flexible, modular framework for onboard electronics and software in a sustainable hydrogen-powered boat.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_ssb/";
             },},{
         id: 'social-email',
         title: 'email',
