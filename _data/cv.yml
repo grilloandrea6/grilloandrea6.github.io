@@ -1,97 +1,119 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Andrea Grillo
-#     - name: Date of Birth
-#       value: 3rd July 2001
-#     - name: Languages
-#       value: English, Italian, Spanish, French
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Andrea Grillo
+    - name: Title
+      value: EPFL Master’s Student in Robotics
+    - name: Address
+      value: Route Cantonale 35, 1025 St-Sulpice VD - Switzerland
+    - name: Phone
+      value: +41 78 266 42 46 | +39 392 339 2042
+    - name: Email
+      value: andrea.grillo@epfl.ch
+    - name: GitHub
+      value: grilloandrea6
+    - name: LinkedIn
+      value: grilloandrea6
+    - name: Languages
+      value: English (C1), Italian (Mother Tongue), Spanish (C1), French (B2)
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: PhD
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1905
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Federal teaching diploma
-#       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#       year: 1900
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Education
+  type: time_table
+  contents:
+    - title: Master’s Degree in Robotics
+      institution: EPFL - École Polytechnique Fédérale de Lausanne, Switzerland
+      year: Sept. 2023 - present
+      description:
+        - Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Deep Learning for Autonomous Vehicles.
+        - Teaching assistant for courses: Basics of Mobile Robotics, Basics of Robotics for Manipulation.
+        - Grade average: 5.78/6
+    - title: Bachelor’s Degree in Computer Engineering
+      institution: Politecnico di Torino, Italy
+      year: Aug. 2020 - Jul. 2023
+      description:
+        - Intraprendenti Project: Excellence program for top-level students.
+        - Camplus Bernini: INPS fellowship for living in a College of Merit.
+        - Final grade: 110/110 cum laude
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Professor of Theoretical Physics
-#       institution: Institute for Advanced Study, Princeton University
-#       year: 1933 - 1955
-#       description:
-#         - Description 1.
-#         - Description 2.
-#         - title: Description 3.
-#           contents:
-#             - Sub-description 1.
-#             - Sub-description 2.
-#     - title: Visiting Professor
-#       institution: California Institute of Technology, Pasadena, California, US
-#       year: 1933
-#       description:
-#         - Description 1.
-#         - Description 2.
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Research Assistant and Semester Project
+      institution: Automatic Control Laboratory - Predict Lab, EPFL, Switzerland
+      year: Feb. 2024 - present
+      description:
+        - Developed software framework for Distributed MPC on hovercrafts for multi-robot formation control. Submitted to ICRA 2025.
+        - Skills: ROS2, Optimization, C++, MPC
+    - title: EPFL Semester Project
+      institution: Swiss Solar Boat, EPFL, Switzerland
+      year: Sept. 2023 - Feb. 2024
+      description:
+        - Designed software architecture framework for a prototype boat.
+        - Skills: ROS2, CANBUS communication, Python/C++, Docker
+    - title: Student Internship
+      institution: Pic4Ser - Politecnico di Torino, Italy
+      year: Feb. 2023 - Jul. 2023
+      description:
+        - Designed an obstacle-avoidance sensor system for a robotic platform.
+        - Skills: STM32 microcontroller programming, CANBUS communication
+    - title: Team Leader
+      institution: Team ISAAC - Politecnico di Torino, Italy
+      year: Nov. 2020 - Jul. 2023
+      description:
+        - Managed a team designing a biomimetic modular snake-like robot.
+        - Skills: Microcontroller programming, control systems, software development management
+    - title: Specialized Technician - Student Internship
+      institution: Openscuola Project - Politecnico di Torino, Italy
+      year: Oct. 2021 - Jul. 2023
+      description:
+        - Maintained IT infrastructure in schools using recycled hardware and open-source software.
+        - Project link: [Openscuola](https://linux.studenti.polito.it)
 
-#     - title: Director
-#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-#       year: 1917-1933
+- title: Publications
+  type: time_table
+  contents:
+    - title: Cooperative Distributed Model Predictive Control for Embedded Systems: Experiments with Hovercraft Formations
+      year: 2024
+      description: Co-authored with G. Stomberg, R. Schwan, C.N. Jones, and T. Faulwasser. Submitted to ICRA 2025. Available [here](https://arxiv.org/abs/2409.13334v1).
 
-#     - title: Professor of Theoretical Physics
-#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
-#       year: 1911 - 1917
-#       description:
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Final grade: 110/110 cum laude (Bachelor’s)
+    - year: 2020
+      items:
+        - Intraprendenti Excellence Program
 
-#     - title: Associate Professor of Theoretical Physics
-#       institution: University of Zurich, Zurich, Switzerland
-#       year: 1909 - 1911
+- title: Competences
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - C/C++ for embedded systems
+        - Python, Java, MIPS/OpenRISC assembly
+        - MATLAB for data analysis
+        - Git version control
+    - title: Robotics and Control Systems
+      items:
+        - ROS/ROS2 for embedded systems
+        - Control systems: PID, cascaded control, MPC
+        - Robotics hardware: microcontrollers, sensors
+    - title: IT and Networking
+      items:
+        - GNU/Linux expertise (Debian, Ubuntu)
+        - Docker for virtualization
+        - Networking: VPNs, routing, firewall management
+    - title: Electronics and Embedded Systems
+      items:
+        - Circuit design (analog/digital), PCB design
+        - Communication protocols: I2C, SPI, CANBUS
+        - STM32 microcontroller expertise
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Other Interests
+  type: list
+  contents:
+    - Robotics and technology innovation
+    - Open-source contributions
