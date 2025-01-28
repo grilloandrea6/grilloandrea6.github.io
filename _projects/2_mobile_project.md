@@ -5,7 +5,7 @@ description: Integration of vision, navigation, and filtering for autonomous Thy
 img: assets/img/mobile_project.gif
 importance: 1
 category: course-projects
-related_publications: true
+related_publications: false
 ---
 
 This project, undertaken during the 2023 fall semester at EPFL for the "Basics of Mobile Robotics" course, focuses on integrating vision, global and local navigation, and filtering techniques to autonomously maneuver a Thymio robot within a predefined environment.

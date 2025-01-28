@@ -5,7 +5,7 @@ description: Advanced control systems for a rocket prototype using Model Predict
 img: assets/img/mpc_project.png
 importance: 1
 category: course-projects
-related_publications: true
+related_publications: false
 ---
 
 This project explores the development and application of various Model Predictive Control (MPC) strategies for a rocket prototype. The project was undertaken as part of the ME-425 course on Model Predictive Control at EPFL.

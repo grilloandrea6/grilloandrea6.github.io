@@ -5,7 +5,7 @@ img: assets/img/publication_preview/hovercraft.png
 description: A semester project on distributed formation control using Model Predictive Control (DMPC).
 importance: 1
 category: university-and-research
-related_publications: true
+related_publications: false
 ---
 
 This semester project explores Distributed Model Predictive Control (DMPC) for achieving formation control of miniature hovercraft. The work builds upon and enhances previous research by integrating advanced algorithms, improving system design, and enabling onboard computation.

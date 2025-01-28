@@ -5,7 +5,7 @@ description: Developing a flexible, modular framework for onboard electronics an
 img: assets/img/ssb.png
 importance: 1
 category: university-and-research
-related_publications: true
+related_publications: false
 ---
 
 This project focuses on designing a robust and future-proof framework for the onboard computer of the Swiss Solar Boat. Conducted during a semester project at EPFL, the work forms a crucial part of the team's effort to develop a hydrogen-powered boat by 2026. The framework integrates control systems, safety mechanisms, and data logging while ensuring modularity and scalability.
