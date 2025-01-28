@@ -49,7 +49,7 @@ ninja.data = [{
               window.location.href = "/projects/2_mobile_project/";
             },},{id: "projects-distributed-mpc-for-miniature-hovercraft",
           title: 'Distributed MPC for Miniature Hovercraft',
-          description: "A semester project on distributed formation control using Model Predictive Control (DMPC).",
+          description: "Semester project on distributed formation control using Model Predictive Control (DMPC), culminating in a paper for ICRA 2025.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_hovercraft/";
             },},{id: "projects-firmware-development-for-a-sensorized-pleurobot",
