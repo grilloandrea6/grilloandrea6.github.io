@@ -10,12 +10,9 @@ related_publications: false
 
 This project, undertaken during the 2023 fall semester at EPFL for the "Basics of Mobile Robotics" course, focuses on integrating vision, global and local navigation, and filtering techniques to autonomously maneuver a <a href="https://www.thymio.org">Thymio</a> robot within a predefined environment.
 
-## Group Members
+For a detailed walkthrough and access to the codebase, please visit the [GitHub project repository](https://github.com/grilloandrea6/mobile-robotics-project).
 
-- **Mehmet Furkan Dogan** (370234): MSc in Mechanical Engineering; BSc in Mechanical Engineering and Mechatronics from Middle East Technical University.
-- **Andrea Grillo** (371099): MSc in Robotics; BSc in Computer Science from Politecnico di Torino.
-- **Badil Mujovi** (274632): MSc in Robotics; BSc in Microengineering from HEIG-VD.
-- **Aubin Mercier** (316260): MSc in Robotics; BSc in Microengineering from EPFL.
+This is a group project, see the GitHub Repository for more details about the group members.
 
 ## Demonstration
 
@@ -33,9 +30,6 @@ A comprehensive demonstration showcasing all components of the project is availa
 Additional test videos can be found in the 'videos' directory of the project repository.
 
 
-## Project repository
-
-For a detailed walkthrough and access to the codebase, please visit the [project repository](https://github.com/grilloandrea6/mobile-robotics-project).
 
 ## Introduction
 

@@ -11,9 +11,12 @@ related_publications: false
 
 This project explores the development and application of various Model Predictive Control (MPC) strategies for a rocket prototype using thrust vector control. The project was undertaken as part of the ME-425 course on Model Predictive Control at EPFL.
 
-You can find the pdf version of the report for this project [here](/assets/pdf/mpc-project-report.pdf).
+You can find the PDF version of the report for this project [here](/assets/pdf/mpc-project-report.pdf).
 
 The study involved system analysis, and the design of controllers tailored to both the linearized system, as well as the full nonlinear dynamics using a non linear optimizer. The controllers were evaluated for performance, robustness, and feasibility under varying conditions, including time delays.
+
+This is a group project, see the PDF report for more details about the group members.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/mpc_project/drone.png" title="Rocket Prototype" class="img-fluid rounded z-depth-1" %}
