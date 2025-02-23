@@ -25,9 +25,9 @@
       institution: EPFL - École Polytechnique Fédérale de Lausanne, Switzerland
       year: Sep 2023 - present
       description:
-        - "Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Deep Learning for Autonomous Vehicles."
+        - "Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Distributed Algorithms."
         - "Teaching assistant for courses: Basics of Mobile Robotics, Basics of Robotics for Manipulation."
-        - "Grade average: 5.78/6"
+        - "Grade average: 5.83/6"
     - title: Bachelor’s Degree in Computer Engineering
       institution: Politecnico di Torino, Italy
       year: Aug 2020 - Jul 2023
@@ -39,11 +39,16 @@
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Internship - Underwater Optical Communication Engineer
+      institution: Hydromea, Renens, Switzerland
+      year: Feb 2025 - present
+      description:
+        - Embedded system programming, unit and integration product test automation, optical communication protocols implementation.
     - title: Research Assistant and Semester Project
       institution: Automatic Control Laboratory - Predict Lab, EPFL, Switzerland
       year: Feb 2024 - present
       description:
-        - Developed software framework for Distributed MPC on hovercrafts for multi-robot formation control. Submitted to ICRA 2025.
+        - Developed software framework for Distributed MPC on hovercrafts for multi-robot formation control. Accepted to ICRA 2025.
         - "Skills: ROS2, Optimization, C++, MPC"
     - title: EPFL Semester Project
       institution: Swiss Solar Boat, EPFL, Switzerland
