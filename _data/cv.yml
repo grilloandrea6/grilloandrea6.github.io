@@ -43,7 +43,14 @@
       institution: Hydromea, Renens, Switzerland
       year: Feb 2025 - present
       description:
-        - Embedded system programming, unit and integration product test automation, optical communication protocols implementation.
+        -  Optical communication protocols implementation on microcontroller. Unit and integration test automation.
+        -  "Skills: Embedded systems, C, Python, Git, CI/CD, Docker"
+    - title: EPFL Semester Project
+      institution: BIOROB Laboratory - EPFL, Switzerland
+      year: Sep 2024 - Jan 2025
+      description:
+        - Implementation of high frequecy, low latency data acquisition system for a robotic platform.
+        - "Skills: ROS2, C++, RS485"
     - title: Research Assistant and Semester Project
       institution: Automatic Control Laboratory - Predict Lab, EPFL, Switzerland
       year: Feb 2024 - present
