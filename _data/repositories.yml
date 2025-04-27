@@ -4,12 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - PREDICT-EPFL/holohover
+  - PREDICT-EPFL/holohover-docker
   - grilloandrea6/mpc-project
   - grilloandrea6/embedded-system-design
-  - grilloandrea6/mobile-robotics-project
   - grilloandrea6/system-programming-SOC
+  - grilloandrea6/mobile-robotics-project
   - grilloandrea6/aerial-robotics-project
-  - grilloandrea6/machine-learning-programming
   - grilloandrea6/DLAV-project
-  - grilloandrea6/algoritmi-strutture-dati
 
