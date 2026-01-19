@@ -8,7 +8,7 @@
     - name: Address
       value: Route Cantonale 35, 1025 St-Sulpice VD - Switzerland
     - name: Phone
-      value: +41 78 266 42 46 | +39 392 339 2042
+      value: +39 392 339 2042
     - name: Email
       value: <a href="mailto:grilloandrea6@gmail.com">grilloandrea6@gmail.com</a> | <a href="andrea.grillo@epfl.ch">andrea.grillo@epfl.ch</a>
     - name: GitHub
@@ -21,9 +21,15 @@
 - title: Education
   type: time_table
   contents:
+    - title: Visiting Masters Thesis Researcher
+      institution: Dartmouth College, USA
+      year: Sep 2025 - Mar 2026
+      description:
+        - "Research on the algorithmic adaptation of ADMM-based solvers for linear MPC for neuromorphic chips and FPGAs. Emulation of neuromorphic chip on GPU, FPGA implementation and deployment on custom PCB on Crazyflie quadcopter."
+        - "Supervisor: Prof. Brian Plancher, A2R Lab."
     - title: Master’s Degree in Robotics
       institution: EPFL - École Polytechnique Fédérale de Lausanne, Switzerland
-      year: Sep 2023 - present
+      year: Sep 2023 - Mar 2026
       description:
         - "Relevant courses: Model Predictive Control, Embedded System Design, System Programming for SOCs, Distributed Algorithms."
         - "Teaching assistant for courses: Basics of Mobile Robotics, Basics of Robotics for Manipulation."
@@ -41,9 +47,9 @@
   contents:
     - title: Internship - Underwater Optical Communication Engineer
       institution: Hydromea, Renens, Switzerland
-      year: Feb 2025 - present
+      year: Feb 2025 - Jul 2025
       description:
-        -  Optical communication protocols implementation on microcontroller. Unit and integration test automation.
+        -  New firmware version of optical underwater modem. Owned firmware quality assurance. Designed and automated production test infrastructure for manufacturing. Customer technical support. Coordinated and executed firmware release to production.
         -  "Skills: Embedded systems, C, Python, Git, CI/CD, Docker"
     - title: EPFL Semester Project
       institution: BIOROB Laboratory - EPFL, Switzerland

@@ -19,11 +19,11 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<!-- <h1>⚠️  Site under construction!</h1> -->
-Dedicated Robotics student with a foundation in Computer Engineering. 
 
-I am enthusiastic about merging my expertise in computer and electronics to specialize in **embedded systems for control and robotics**.
+Robotics student with a background in Computer Engineering, focused on the intersection of algorithms, hardware acceleration, and control.
 
-I am driven by a desire to enhance my problem‑solving abilities for complex challenges, while actively seeking opportunities to expand my knowledge and master new technologies and tools.
+I’m particularly interested in **deploying complex algorithms on resource-constrained edge platforms**. I aim to explore reduced-precision computation and alternative computing platforms within the context of robotics and control algorithms.
+
+I'm eager to tackle challenging problems and continuously learn new technologies. Discover more about my work in the projects section!
 
 Discover more about my work by visiting the [projects](/projects/) section!
